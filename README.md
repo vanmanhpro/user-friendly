@@ -7,10 +7,6 @@ In this research project, we aim to explore how to design software that serves a
 
 ## Installation
 
-###
-
-###
-
 ### PHP Composer
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -49,3 +45,16 @@ Project [Wetty](https://github.com/butlerx/wetty) is used to connect to a contai
 yarn global add wetty
 ```
 
+### Install MySQL
+
+```
+sudo apt update
+sudo apt install mysql-server
+sudo systemctl start mysql.service
+```
+
+## Bootstrap server
+
+```
+php artisan serve
+```
